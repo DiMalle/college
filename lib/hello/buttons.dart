@@ -8,8 +8,6 @@ class Buttons extends StatefulWidget {
 }
 
 class _ButtonsState extends State<Buttons> {
-  var number = <int>[];
-
   GlobalKey<FormState> key = GlobalKey<FormState>();
   var checkBoxValue = false;
   var switchValue = false;
