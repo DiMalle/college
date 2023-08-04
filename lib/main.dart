@@ -1,5 +1,6 @@
 import 'package:college/hello/HelloWorld.dart';
 import 'package:college/hello/buttons.dart';
+import 'package:college/hello/calendar.dart';
 import 'package:college/hello/login.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Scaffold(body: Buttons()),
+      home: const Scaffold(body: Calendar()),
     );
   }
 }
